@@ -1,0 +1,238 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.main_div {}
+
+.div_nav {
+    font-size: 0.9vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.div-nav_ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.6rem;
+    margin: 0.5rem 0rem 0rem 0rem;
+}
+
+.div-nav_ul li {
+    color: rgb(18, 45, 63);
+}
+
+.div-nav_ul li a {
+    color: rgb(18, 45, 63);
+}
+
+.gardens_a {
+    display: none;
+    position: absolute;
+    top: 2rem;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 0rem 0.3rem 0.2rem 0.1rem rgb(233, 232, 232);
+}
+
+.gardens_li {
+    display: inline;
+}
+
+.gardens_li li {
+    position: relative;
+    top: 0rem;
+
+}
+
+.gardens_li:hover .gardens_a {
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.gardens_a a {
+    padding: 0.7rem;
+    color: rgb(18, 45, 63);
+}
+
+.gardens_a a:hover {
+    color: rgb(176, 92, 24);
+}
+
+.div_nav_second {
+    font-size: 0.9vw;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0rem 0.1rem 0.1rem 0.05rem rgb(232, 231, 231);
+    position: sticky;
+    top: 0rem;
+    padding: 1.5rem;
+}
+
+.div_nav_second_ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.6rem;
+    margin: 0rem;
+}
+
+.div_nav_second_ul li {
+    color: rgb(18, 45, 63);
+}
+
+.div_nav_second_ul li a {
+    color: rgb(18, 45, 63);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.color_el {
+    border: 1px solid rgb(176, 92, 24);
+    background: rgb(176, 92, 24);
+    padding: 0.3rem 1rem;
+}
+
+.col_a {
+    color: white !important;
+}
+
+.color_el:hover {
+    background: white;
+    border: 1px solid black;
+}
+
+.col_a:hover {
+    color: black !important;
+}
+
+.nav_hr {
+    border: 0.1px solid rgb(232, 231, 231);
+}
+
+.bg-image_div {
+    background-image: url(rooms_bg.jpg);
+    height: 14vw;
+    background-size: cover;
+}
+
+.ballrom_p {
+    margin: 0rem 0rem;
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding: 2rem 0rem 0rem 4.2rem;
+}
+
+#home_p {
+    font-size: 1vw;
+}
+
+#home {
+    padding-left: 4rem;
+    color: rgb(176, 92, 24);
+}
+
+#cl {
+    color: white;
+}
+
+#rec {
+    color: rgb(176, 92, 24);
+}
+
+#contact {
+    color: white;
+}
+.marg_bottom{
+    margin-bottom: 6rem;
+}
+.hotelimgs_texts {
+    padding: 10rem 5rem 6rem 5rem;
+    font-size: 1.05vw;
+    color: rgb(38, 38, 38);
+}
+
+#moon-header {
+    color: rgb(34, 40, 79);
+    font-size: 1.6vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0rem 0rem;
+    padding: 2rem 0rem 2rem 1rem;
+}
+
+#bold {
+    font-weight: bold;
+    color: black;
+}
+
+.hotelimgs_texts ul li {
+    list-style-type: disc;
+    line-height: 1.6rem;
+}
+
+.hotel_imgstexts {
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 2rem 0rem 0rem;
+}
+
+.hotel_imgstexts img {
+    width: 44vw;
+    height: 26vw;
+    object-fit: cover;
+}
+
+.texts_main_div {
+    padding: 0rem 2rem 1rem 2rem;
+    margin: 1rem 0rem 3rem -3rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(120, 120, 120, 0.2), 0 6px 20px 0 rgba(120, 120, 120, 0.2);
+
+}
+
+.classic_text {
+    color: rgb(18, 45, 63);
+    font-size: 1.6vw;
+    font-weight: bold;
+}
+
+.texts_main_div hr {
+    border: 1px solid rgb(234, 232, 232);
+}
+
+.room_ps {
+    font-size: 0.8vw;
+    font-weight: bold;
+    color: black;
+}
+
+.room_ps span {
+    padding-left: 12rem;
+}
+
+.color_view {
+    border: 1px solid rgb(176, 92, 24);
+    background: rgb(176, 92, 24);
+    margin-top: 1.3rem;
+    padding: 0.5rem 1.2rem;
+    width: fit-content;
+
+}
+
+.color_view a {
+    color: white;
+    font-size: 0.9vw;
+    letter-spacing: 0.1rem;
+}

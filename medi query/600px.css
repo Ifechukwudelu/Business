@@ -1,0 +1,418 @@
+.main_div{
+    
+}
+.div_nav {
+    margin-left: 0.6rem;
+    font-size: 1.6vw;
+}
+
+nav {
+    margin-top: 0.7rem;
+    margin-bottom: 0rem;
+}
+
+select {
+    font-size: 1.6vw;
+    padding-left: 0.4rem;
+
+}
+
+#gardens {
+    display: none;
+    background-color: rgb(253, 252, 252);
+}
+
+#hotel {
+    display: inline;
+    background-color: rgb(253, 252, 252);
+}
+
+#suites {
+    display: none;
+    background-color: rgb(253, 252, 252);
+}
+
+#signature {
+    display: none;
+    background-color: rgb(253, 252, 252);
+}
+
+#tower {
+    display: none;
+    background-color: rgb(253, 252, 252);
+
+}
+
+#hotel:hover,
+#gardens #suites #signature #tower {
+    display: inline;
+}
+
+.marg_left {
+    margin-left: 20rem;
+}
+
+.marg_left a:first-child {
+    display: none;
+}
+
+.color_el {
+    margin-left: 0.2rem;
+    padding: 0.1rem 0.5rem;
+}
+
+#nav_second {
+    margin-top: 1.2rem;
+}
+
+#dine {
+    display: none;
+}
+
+#gale {
+    display: none;
+}
+
+#home {}
+
+#re {
+    padding-left: 10rem;
+    display: none;
+}
+
+#meetings {
+    display: none;
+}
+
+#events {
+    display: none;
+}
+
+#home:hover #dine #re #meetings #events #gale {
+    display: inline;
+}
+
+.image_el {
+    margin-top: 1.2rem;
+}
+
+#first_image {
+    width: 97.5vw;
+    
+}
+
+.blue_back {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.blue_first,
+.blue_second {
+    display: none;
+}
+
+.available a {
+    font-size: 1.6vw;
+    padding: 0.4rem 0.3rem;
+}
+
+.suites {
+    padding-bottom: 5rem;
+}
+
+.suites_p {
+    padding-top: 2.2rem;
+    padding-bottom: 0rem;
+    font-size: 4.1vw;
+
+}
+
+.about_suites_hotels {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+#about_id {
+    margin: 0rem auto;
+}
+
+.about_image {
+    width: 90vw;
+}
+
+.about_suites {
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem rgb(246, 242, 242);
+    margin: -2.9rem auto;
+    width: 70vw;
+    font-size: 2vw;
+}
+
+#us {
+    color: rgb(239, 187, 109);
+    font-size: 2.1vw;
+}
+
+#prefer {
+    font-size: 2.9vw;
+    padding-bottom: 0.5rem;
+}
+
+.padd_bottom {
+    padding-bottom: 0.5rem;
+}
+
+.learn_more a {
+    font-size: 1.6vw;
+    padding: 0.4rem 0.3rem;
+}
+
+.hotels img {
+    width: 97.5vw;
+}
+
+.hotels_first {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    row-gap: 1rem;
+}
+
+.hotels_second {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    row-gap: 1rem;
+}
+
+.view_all {
+    margin: 2rem auto 1rem auto;
+}
+
+.view_all a {
+    font-size: 1.6vw;
+    padding: 0.4rem 0.3rem;
+}
+
+.recreation_div {
+    padding-bottom: 4rem;
+}
+
+.recreation_p {
+    padding-top: 2.2rem;
+    padding-bottom: 0rem;
+    font-size: 4.1vw;
+}
+
+.gymn_swim {
+    flex-direction: column;
+    margin: 0.4rem auto;
+
+}
+
+.gymn_image {
+    width: 87vw;
+    height: 43vw;
+    object-fit: cover;
+    position: relative;
+    top: -24.5rem;
+    left: 0.9rem;
+}
+
+.gymn_texts {
+    width: 92vw;
+    height: 70vh;
+    margin: 0.7rem auto;
+    font-size: 2vw;
+
+}
+
+.text_div {
+    padding: 1.3rem;
+    line-height: 1rem;
+    padding-top: 18rem;
+
+}
+
+.extra_size {
+    font-size: 2.7vw;
+}
+
+.moon_dining {
+    padding-bottom: 2.5rem;
+}
+
+.dining_p {
+    padding-top: 2.2rem;
+    padding-bottom: 0rem;
+    font-size: 4.1vw;
+    color: rgb(239, 187, 109);
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0rem;
+    padding-top: 1rem;
+    column-gap: 2rem;
+}
+
+.option_div {
+    background-color: rgb(253, 252, 252);
+    width: 90vw;
+    margin: 1rem auto;
+    padding-bottom: 2rem;
+}
+
+.option div img {
+    width: 90vw;
+}
+
+.option_div p {
+    font-size: 2vw;
+}
+
+#read_font {
+    font-size: 2.2vw;
+}
+
+#sky_font {
+    font-size: 3.1vw;
+}
+
+.vertical_div {
+    display: flex;
+    align-items: center;
+}
+
+#moontop {
+    margin-top: -3rem;
+}
+
+.vertical_text {
+    margin-left: 1rem;
+    letter-spacing: 1rem;
+    transform: rotate(0deg);
+
+}
+
+.vertical_moon {
+    margin-left: 15rem;
+    letter-spacing: 1rem;
+    transform: rotate(0deg);
+}
+
+.gallery {
+    background-color: rgb(253, 252, 252);
+    padding-bottom: 4rem;
+
+}
+
+.gallery_divs {
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.gallery_div {
+    flex-direction: column;
+}
+
+.gallery_div img {
+    width: 97.5vw;
+}
+
+.gallery_div_second {
+    flex-direction: column;
+}
+
+.gallery_div_second img {
+    width: 97vw;
+}
+
+.contact_us {
+    background-color: rgb(249, 249, 249);
+    padding-bottom: 6rem;
+}
+
+.first_contact {
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.contact_div p {
+    font-size: 2.1vw;
+    line-height: 0.5rem;
+}
+
+#info {
+    font-size: 2.6vw;
+}
+
+.adres {
+    font-size: 2.1vw;
+    padding-top: 1.5rem;
+}
+
+#contact_except {
+    margin-top: 3rem;
+}
+
+#in_touch {
+    font-size: 2.6vw;
+}
+
+.input_div input {
+    width: 65vw;
+    font-size: 2.2vw;
+}
+
+textarea {
+    width: 65vw;
+    height: 15vh;
+}
+
+.send_message a {
+    font-size: 1.6vw;
+
+}
+
+.dont {
+    width: 40vw;
+    margin-top: -10rem;
+    padding: 0rem 16rem;
+}
+
+.dont p {
+    font-size: 5vw;
+    line-height: 1.9rem;
+}
+
+.text_indent {
+    text-indent: 0rem;
+}
+
+footer {
+    padding: 1rem;
+    font-size: 2vw;
+}
+
+.footer_flex {
+    flex-direction: column;
+}
+
+.logo_part {
+    margin-top: 3rem;
+}
+
+.news_form input {
+    width: 45vw;
+    font-size: 2.2vw;
+}
+
+#new_except {
+    font-size: 2.6vw;
+}
+
+.the_company a {
+    font-size: 2vw;
+}
